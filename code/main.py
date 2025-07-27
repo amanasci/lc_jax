@@ -254,4 +254,5 @@ if __name__ == '__main__':
     ax3.grid(True, which='both', linestyle='--', alpha=0.6)
 
     plt.tight_layout()
+    plt.savefig("/run/media/asci/Data/E/Projects2/lc_jax/plots/final_light_curve_validation.png")
     plt.show()
